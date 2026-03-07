@@ -18,7 +18,7 @@ The interface showcases a **prospective customer segmentation dashboard** with c
 
 ## 📸 Project Preview
 
-![Project Preview](./preview.png)
+![Project Preview](ImagePreview.png)
 
 ---
 
@@ -82,17 +82,16 @@ This structure improves:
 ---
 
 ## ⚙️ Installation & Setup
-
-Clone the repository
+### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/07-ui-project.git
+git clone https://github.com/Shubh7amydv/React_Project.git
 ```
 
-Navigate to project folder
+Navigate to the UI project
 
 ```bash
-cd 07-ui-project
+cd React_Project/07-ui-project
 ```
 
 Install dependencies
@@ -101,17 +100,12 @@ Install dependencies
 npm install
 ```
 
-Run development server
+Run the development server
 
 ```bash
 npm run dev
 ```
 
-Open in browser
-
-```
-http://localhost:5173
-```
 
 ---
 

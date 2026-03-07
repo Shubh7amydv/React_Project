@@ -1,16 +1,144 @@
-# React + Vite
+# React UI Project – Customer Segmentation Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern responsive UI built using **React + Vite + TailwindCSS**.
+This project demonstrates a **component-based architecture** where a large UI section is divided into reusable React components.
 
-Currently, two official plugins are available:
+The interface showcases a **prospective customer segmentation dashboard** with card-based layouts and modular sections.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* TailwindCSS
+* JSX Component Architecture
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Project Preview
+
+![Project Preview](./preview.png)
+
+---
+
+## 📂 Project Structure
+
+```
+07-ui-project
+│
+├── public
+│
+├── src
+│   ├── assets
+│   │
+│   ├── components
+│   │   ├── Section1
+│   │   │   ├── Arrow.jsx
+│   │   │   ├── HeroText.jsx
+│   │   │   ├── Leftcontent.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Page1content.jsx
+│   │   │   ├── RightCard.jsx
+│   │   │   ├── RightCardContent.jsx
+│   │   │   ├── RightContent.jsx
+│   │   │   └── Section1.jsx
+│   │
+│   │   └── Section2
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🧩 Component Architecture
+
+The UI is divided into **modular components** following React best practices.
+
+### Section1 Components
+
+* **Navbar.jsx** – Top navigation section
+* **HeroText.jsx** – Main headline and description
+* **Leftcontent.jsx** – Left side content block
+* **RightContent.jsx** – Container for cards
+* **RightCard.jsx** – Individual card layout
+* **RightCardContent.jsx** – Card text and labels
+* **Arrow.jsx** – Navigation arrow element
+* **Page1content.jsx** – Main layout wrapper
+
+This structure improves:
+
+* Reusability
+* Maintainability
+* Scalability
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/07-ui-project.git
+```
+
+Navigate to project folder
+
+```bash
+cd 07-ui-project
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
+
+```bash
+npm run dev
+```
+
+Open in browser
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🎯 Features
+
+* Component-based React architecture
+* Clean UI layout
+* Responsive card design
+* Modular folder structure
+* Fast development using **Vite**
+
+---
+
+## 📌 Learning Goals
+
+This project was built to practice:
+
+* React component structuring
+* UI decomposition into reusable components
+* Organizing components using **feature-based folder structure**
+* Building modern UI using **TailwindCSS**
+
+---
+
+## 👨‍💻 Author
+
+Shubham Yadav
+
+
+![The preview image can be seen here](imagePreview.png)
